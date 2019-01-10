@@ -7,9 +7,9 @@ export class UserSessionService {
 
   constructor() { }
 
-  UserName: string;
+  userName: string;
 
-  IsUserLoggedIn(): boolean {
-    return !!this.UserName;
+  isUserLoggedIn(): boolean {
+    return !!this.userName;
   }
 }
